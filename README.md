@@ -1,6 +1,12 @@
-# Custom-Template
-My custom template to easily install a all my system settings in one click
+# project-template
 
+shell scripts that set up a fresh ubuntu machine the way i like it: system update, vs code, fonts, nvm + node, docker, browsers.
 
-## Consistency & Discipline
-This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
+## run locally
+
+read the scripts first; they use `sudo`.
+
+```bash
+chmod +x start-setup.sh start.sh
+./start-setup.sh
+```
